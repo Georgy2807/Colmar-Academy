@@ -2,9 +2,13 @@
 <html>
   <head>
   	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Colmar Academy</title>
 		<link href="./resources/css/reset.css" rel="stylesheet" type="text/css">
 		<link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Hammersmith+One|Roboto+Condensed:300,400,700|Roboto:300,400,500,700" rel="stylesheet">
+
+
   </head>
 
   <body>
@@ -13,15 +17,23 @@
   		<div class="header">  		
 	  		<div class="logo-image">
 	  			<img src="/home/georgy/projects_cc/Colmar-Academy/images/ic-logo.svg" align="middle" alt="logo-image">
-	  		</div>
-  			<h3 id="logo">COLMAR<h3> <h3 id="title">ACADEMY</h3> 
-  	</div> 
+	  		</div id="lo-tit">
+	  			<h3 id="logo">COLMAR<h3> 
+	  			<h3 id="logo-title">ACADEMY</h3> 
+  			</div> 
   		
   		<nav>
   		<a href="#" >On campus</a>
   			<a href="#" >Online</a>
   			<a href="#" >For companies</a>
   			<a href="#" >Sign in</a>
+  		</nav>
+  		<nav id="mobile">
+				
+				<img src="/home/georgy/projects_cc/Colmar-Academy/images/ic-logo.svg" alt="">
+				<img src="/home/georgy/projects_cc/Colmar-Academy/images/ic-on-campus.svg" alt="">
+				<img src="/home/georgy/projects_cc/Colmar-Academy/images/ic-online.svg" alt="">
+				<img src="/home/georgy/projects_cc/Colmar-Academy/images/ic-login.svg" alt="">
   		</nav>
   	</header>
 
@@ -57,9 +69,9 @@
   			<div class="left_main_img">
   				<img  id="student_read" src="/home/georgy/projects_cc/Colmar-Academy/images/information-main.jpg"> 
 
-<!--IMFORMATION BLOCK TITLE -->					
+<!--IMFORMATION BLOCK TEXT -->					
   					<div class="left_text"> 
-							<h1>It doesn't hurt to keep practicing</h1>
+							<h2>It doesn't hurt to keep practicing</h2>
 							<p>
 								"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan uma. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
 							</p>	
@@ -70,25 +82,26 @@
 	</div>
 <!--IMFORMATION BLOCK TEXT & 3 SMALL IMAGE-->		
   			<div class="right_main">		
-					<div class="two_pictur">
+				
 			<!--  ----------  -->
   				<div class="right_box" id="orientation_date">
-
   					<div class="right_image"> 
-  						<img src="/home/georgy/projects_cc/Colmar-Academy/images/information-orientation.jpg" >
+  						<img id="desc-image" src="/home/georgy/projects_cc/Colmar-Academy/images/information-orientation.jpg" >
+  						<img id="img-mobile" src="
+  						/home/georgy/projects_cc/Colmar-Academy/images/information-orientation-mobile.jpg" alt="">
   					</div>
-
   					<div class="text"> 
   						<h3>Orientation date</h3>
 							<p>Tue 10/11 & Wed 10/12: 8am-3pm</p>	
 							<a href="#">Read more</a>	 
 						</div>
-
 					</div>  			
 			<!-- -----------  -->
   				<div class="right_box" id="our_campus">
 						<div class="right_image"> 
-							<img src="/home/georgy/projects_cc/Colmar-Academy/images/information-campus.jpg" >
+							<img id="desc-image" src="/home/georgy/projects_cc/Colmar-Academy/images/information-campus.jpg" >
+
+							<img id="img-mobile" src="/home/georgy/projects_cc/Colmar-Academy/images/information-campus-mobile.jpg" alt="">
 						</div>
   					<div class="text"> 
   						<h3>Our campus</h3>
@@ -96,101 +109,159 @@
 							<a href="#">Read more</a>		 
 						</div>
 					</div>
-				</div>					
+				
 			<!-- -----------  -->
   				<div  class="right_box" id="guest-lecture">
   				 	<div class="right_image"> 
-  				 		<img src="/home/georgy/projects_cc/Colmar-Academy/images/information-guest-lecture.jpg" >
+
+  				 		<img id="desc-image" src="/home/georgy/projects_cc/Colmar-Academy/images/nformation-guest-lecture.jpg" alt="">
+
+  				 		<img id="img-mobile" src="/home/georgy/projects_cc/Colmar-Academy/images/nformation-guest-lecture-mobile.jpg" alt="">
   				  </div>
-						 <div class="text"> 
-							 <h3>Our guest lecture</h3>
-							 <p>Join a keynote with Oliver Sack
-							 about music in medical treatment</p>
-							 <a href="#">Read more</a>	 	 
-						 </div>
+					  <div class="text"> 
+						  <h3>Our guest lecture</h3>
+						  <p>Join a keynote with Oliver Sack
+						  about music in medical treatment</p>
+						  <a href="#">Read more</a>	 	 
+					  </div>
 					</div>
-  			</div>
+				</div>
+  	
   		</div>
 
   <!-- BOX START LEARNING-->
-  		<div class="start_learning"> 			
-  					
-  			<div id="images-text">	
-  				<div id="title"><h1>Start Learning</h1></div> 		
 
-  				<div class="courses">
-  					<div class="box_im_tx">  					
-	  					<div class="image">
-	  						<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-software.jpg" alt="">					
-	  					</div>
-	  					<div class="text">
-	  						<h2>Soft engineering</h2>
-	  						<h4>COURSES</h4>
-	  						<p>Web Development, Mobile
-	  						Development, iOT, APLs</p>
-	  				 </div>
-  				</div>
+  		<div class="start_learning"> 
 
-					<div class="box_im_tx">
-						<div class="image">
-							<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-computer-art.jpg" alt="">				
-  					</div>
-  					<div class="text">
-  						<h2>Computer art</h2>
-  						<h4>COURSES</h4>
-  						<p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-  					</div>
+  			<div id="title"><h1>Start Learning</h1></div>
+		
+<!-- TOP Courses  -->
+		<div class="courses">  			
+			<div class="box_course">  					
+				<div class="image">
+					<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-software.jpg" alt=""></div>
+				<div class="text">
+					<h3>Soft engineering</h3>
+					<h4>COURSES</h4>
+					<p>Web Development, Mobile					Development, iOT, APLs </p></div>
+		 	</div>
+
+			<div class="box_course" id="course-middle">
+				<div class="image">
+					<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-computer-art.jpg" alt=""></div>
+				<div class="text">
+					<h3>Computer art</h3>
+					<h4>COURSES</h4>
+					<p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation	</p></div>
+			</div>
+
+			<div class="box_course">
+				<div class="image">
+					<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-design.jpg" alt="" ></div>
+				<div class="text">
+					<h3>Design</h3>
+					<h4>COURSES</h4>
+					<p>User Expeience Design, User Research,
+					Visual Design</p></div>
+		 </div>		
+	</div>
+
+			<!-- BOTTOM Courses  -->  		
+	<div class="courses">			
+		 <div class="box_course">
+				<div class="image">
+					<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-data.jpg" alt="">	</div>
+				<div class="text">
+					<h3>Data</h3>
+					<h4>COURSES</h4>
+					<p>Data Science, Big Data, SQL, Data Visualization</p>	</div>
+			</div>
+
+			<div class="box_course" id="course-middle">
+				<div class="image">
+					<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-business.jpg" alt=""></div>
+				<div class="text">
+					<h3>Business</h3>
+					<h4>COURSES</h4>
+					<p>Product Development, Business Development, Business Development, Startup</p></div>
+			</div>
+
+			<div class="box_course">
+				<div class="image">
+					<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-marketing.jpg" alt=""></div>
+				<div class="text">
+					<h3>Marketing</h3>
+					<h4>COURSES</h4>
+					<p>Analytics, Content Marketing, Mobile Marketing</p></div>
+			</div> 
+		</div> 				
+ 
+
+  </div>
+	
+
+  	
+		
+
+<!--VIDEO -->
+
+<div class="thesis_exhibit">
+
+	<div id="title"><h1 >Thesis exhibit</h1></div>
+	
+	<div class="box_video"> 
+
+		<div class="video">
+			<div id="video">
+				<video   poster="http://www.wpclipart.com" alt="video">
+					<source src="https://www.youtube.com/watch?v=zu9iAoTjLks" type="video/mp4" >
+					<source src="https://www.youtube.com/watch?v=zu9iAoTjLks" type="video/ogg" >
+					<source src="https://www.youtube.com/watch?v=zu9iAoTjLks" type="video/webm" >					
+					<iframe width="560" height="315" src="https//www.youtube.com/embed/FkX88N4pCow?rel=0" ></iframe>
+					Your browser does not support the video tag.
+				</video>
+			</div>
+			
+		</div>
+
+		<div class="fisma">
+				<div class="right_box" id="our_campus">
+						<div class="right_image"> 
+							<img src="/home/georgy/projects_cc/Colmar-Academy/images/thesis-fisma.jpg" >
+						</div>
+  					<div class="text"> 
+  						<h3>Fisma: Design and Phototype</h3>
+							<p>Designed showcase of new phototype product</p>
+							<a href="#">Read more</a>		 
+					 </div>
+				</div>
+					
+			 <div class="right_box" id="orientation_date">
+					<div class="right_image"> 
+						<img src="/home/georgy/projects_cc/Colmar-Academy/images/thesis-now-and-then.jpg" >
 					</div>
-  					<div class="box_im_tx">
-							<div class="image">
-								<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-design.jpg" alt="">
-	  					</div>
-	  					<div class="text">
-	  						<h2>Design</h2>
-	  						<h4>COURSES</h4>
-	  						<p>User Expeience Design, User Research,
-	  						Visual Design	</p>
-	  					</div>
-  					</div>
-  				</div>
-  				<div class="courses">
-  					<div class="box_im_tx">
-	  					<div class="image">
-	  						<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-data.jpg" alt="">
+  				<div class="text"> 
+  					<h3>Now and then</h3>
+						<p>Research study about New York</p>
+						<a href="#">Read more</a>		 
+					</div>
+				</div>
+		  </div>	
+	  </div> 
+  
+  <div class="text_under_video">
+				<h2>Reimagine urban</h2>
+				<p>"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan uma. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+	</div>
+	</div>
+</content>
 
-	  					</div>
-	  					<div class="text">
-	  						<h2>Data</h2>
-	  						<h4>COURSES</h4>
-	  						<p>Data Science, Big Data, SQL, Data Visualization</p>
-	  					</div>course-design
-  					</div>
-  					<div class="box_im_tx">
-							<div class="image">
-								<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-business.jpg" alt="">
-	  					</div>
-	  					<div class="text">
-	  						<h2>Business</h2>
-	  						<h4>COURSES</h4>
-	  						<p>Product Development, Business Development, Business Development, Startup</p>
-	  					</div>
-  					</div>
-  					<div class="box_im_tx">
-							<div class="image">
-								<img src="/home/georgy/projects_cc/Colmar-Academy/images/course-marketing.jpg" alt="">
-	  					</div>
-	  					<div class="text">
-	  						<h2>Marketing</h2>
-	  						<h4>COURSES</h4>
-	  						<p>Analytics, Content Marketing, Mobile Marketing</p>
-	  					</div>
-  					 </div>
-  				 </div>
-  			 </div>
-  			</div>
-  		</div>
-		</div> 
-
-  	</content>
-  	<footer></footer>
+  	<footer>
+<h3> &copy  2016 Colmar Academy all rights reserved</h3>
+	<div>
+		<h3>Terms </h3>
+		<h3>Privacy</h3>
+	</div>
+</span>
+  	</footer>
   </body>
